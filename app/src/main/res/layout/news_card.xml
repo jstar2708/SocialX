@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/news_card_background"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="20dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2 hours ago"
+                android:padding="7dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="on BBC"
+                android:textStyle="bold"
+                android:paddingEnd="7dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:textSize="12sp"
+                android:layout_toEndOf="@id/time"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Apples admitting slowing down older phones"
+            android:textStyle="bold"
+            android:textColor="@color/blue_800"
+            android:padding="5dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Customers have long suspected the slowing down of i-phones.This is a major issue"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/blue_800"
+            android:padding="5dp"
+            android:textSize="13sp"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_image_24"
+        android:padding="10dp"/>
+
+
+
+
+</LinearLayout>

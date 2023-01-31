@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <string name="facebook_app_id">1141961473181186</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">c53c401d2f6f1d1d5a87875370d7ab5b</string>
+
+
+    <string name="title_activity_authentication">AuthenticationActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="login">Login</string>
+    <string name="sign_up">sign up</string>
+    <string name="login_or_signup">Login or Signup</string>
+    <string name="social">Social</string>
+    <string name="x">X</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_an_naccount">Create an\nAccount</string>
+    <string name="name">Name</string>
+    <string name="john_doe">John doe</string>
+    <string name="email">Email</string>
+    <string name="johndoe_gmail_com">johndoe@gmail.com</string>
+    <string name="contact_no">Contact no</string>
+    <string name="_9876543210">9876543210</string>
+    <string name="password">Password</string>
+    <string name="pass">*********</string>
+    <string name="i_agree_with">I agree with</string>
+    <string name="term_amp_conditions"><u><![CDATA[term & conditions]]></u></string>
+    <string name="sign_in">Sign in!</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="register">Register</string>
+    <string name="signin_into_your_n_account">SignIn into your\n Account</string>
+    <string name="login_with">Login with</string>
+    <string name="don_t_have_an_account">Don\'t have an Account ?</string>
+    <string name="register_now">Register Now</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="your_web_client_id">475205566524-bbp4umonets5ipi1hkemoc1i28l05pdh.apps.googleusercontent.com</string>
+    <string name="search_in_feed">Search in feed</string>
+</resources>
